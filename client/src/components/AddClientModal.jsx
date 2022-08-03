@@ -33,17 +33,19 @@ export default function AddClientModal() {
 
   return (
     <>
-      <button
-        type="button"
-        className="btn btn-secondary"
-        data-bs-toggle="modal"
-        data-bs-target="#addClientModal"
-      >
-        <div className="d-flex align-items-center">
-          <FaUser className="icon" />
-          <div>Add Client</div>
-        </div>
-      </button>
+      <div className="text-end">
+        <button
+          type="button"
+          className="btn btn-secondary"
+          data-bs-toggle="modal"
+          data-bs-target="#addClientModal"
+        >
+          <div className="d-flex align-items-center">
+            <FaUser className="icon" />
+            <div>Add Client</div>
+          </div>
+        </button>
+      </div>
 
       <div
         className="modal fade"
