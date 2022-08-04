@@ -8,7 +8,7 @@ export default function NotFound() {
       <h1>page not found</h1>
       <p className="lead">the page you requested does not exist</p>
       <Link to="/" className="btn btn-primary">
-        go back
+        ← go back
       </Link>
     </div>
   );
