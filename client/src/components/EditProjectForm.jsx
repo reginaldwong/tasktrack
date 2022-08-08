@@ -59,9 +59,11 @@ export default function EditProjectForm({ project }) {
             <option value="completed">Completed</option>
           </select>
         </div>
-        <button type="submit" className="btn btn-primary">
-          Submit
-        </button>
+        <div className="d-flex justify-content-center">
+          <button type="submit" className="btn btn-primary mt-3">
+            Save Changes
+          </button>
+        </div>
       </form>
     </div>
   );
